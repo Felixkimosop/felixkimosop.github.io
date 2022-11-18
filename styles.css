@@ -1,0 +1,121 @@
+
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}
+body{
+
+    background-color: #071a50;
+
+
+}
+
+.nav{
+   display: flex; 
+   align-items: center;
+   padding: 10px;
+   justify-content: space-around;
+   background-color: blue;}
+
+.nav .list{
+    list-style: none;
+}
+
+.nav  .list li{
+
+    display: inline;
+    font-size: 30px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+.nav #heading{
+
+    font-size: 60px;
+    padding-right: 50px;
+    color: white;
+}
+
+.landing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+   
+}
+
+.landing h2{
+
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.landing img{
+
+    text-align: center;
+}
+
+
+
+.html-lang {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ p{
+
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.css-lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.js-lang{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about{
+    text-align: center;
+    
+}
+
+footer{
+
+
+    display: flex;
+    padding: 40px;
+    background-color: rgb(26, 23, 23);
+    color: white;
+
+}
+
+footer div{
+
+    width: 33%;
+}
+
+footer h3{
+    font-size: large;
+}
