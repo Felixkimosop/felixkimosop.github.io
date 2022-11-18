@@ -7,7 +7,8 @@
 }
 body{
 
-    background-color: #071a50;
+    background-color: rgb(29, 94, 20);
+    height: 90vh;
 
 
 }
@@ -17,7 +18,8 @@ body{
    align-items: center;
    padding: 10px;
    justify-content: space-around;
-   background-color: blue;}
+   background-color: rgb(4, 24, 4);
+}
 
 .nav .list{
     list-style: none;
@@ -33,13 +35,18 @@ body{
 .nav a{
     text-decoration: none;
     padding: 30px;
-    color: white;
+    color: rgb(247, 252, 247);
+}
+
+.nav a:hover{
+
+    color: blue;
 }
 .nav #heading{
 
     font-size: 60px;
     padding-right: 50px;
-    color: white;
+    color: rgb(249, 250, 249);
 }
 
 .landing{
@@ -99,6 +106,14 @@ body{
 .about{
     text-align: center;
     
+}
+.about h1{
+    color: darkgreen;
+}
+
+.about p ul li  {
+    color: darkgreen;
+    font-size: 80px;
 }
 
 footer{
