@@ -127,6 +127,7 @@ body{
 
 .btn button:hover{
     color: yellow;
+    background-color: white;
 }
 
 footer{
@@ -153,3 +154,4 @@ footer .cont a{
     text-decoration: none;
     
 }
+
